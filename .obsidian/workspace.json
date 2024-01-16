@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "3fa24718c2782c96",
+        "id": "10247029d79ed481",
         "type": "tabs",
         "children": [
           {
-            "id": "b34ca3e3895b2f2c",
+            "id": "d1725d05cd26b070",
             "type": "leaf",
             "state": {
               "type": "hugo-preview-view",
@@ -161,7 +161,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b34ca3e3895b2f2c",
+  "active": "d1725d05cd26b070",
   "lastOpenFiles": [
     "content/posts/coding/colagpt.md",
     "content/posts/coding/android-ios.md"
