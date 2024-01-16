@@ -1,0 +1,34 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "static/template",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    "static/template/chat-template.md",
+    "static/template/coding-template.md",
+    "static/template/daily-template.md",
+    "static/template/reading-template.md"
+  ],
+  "enable_ribbon_icon": true
+}
