@@ -64,7 +64,7 @@ ignoreErrors = ["error-remote-getjson","error-remote-getcsv"]
   DateFormatSingle = "2006-01-02 15:04:05"
   ReadMore = "阅读全文"
 
-  EditPath = 'https://github.com/sunhaha520/immmmm/edit/master/content'
+  EditPath = 'https://github.com/sunhaha520/hugoimm/edit/master/content'
 
 [markup]
   [markup.goldmark]
