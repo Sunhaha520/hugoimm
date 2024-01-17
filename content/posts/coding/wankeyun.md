@@ -1,8 +1,9 @@
 ---
-title: "玩客云的最后归宿：NAS？建站？都要！"
+title: 玩客云的最后归宿：NAS？建站？都要！
 date: 2023-10-06T00:00:06+0800
-tags: [折腾]
-feature:  https://cdn.dribbble.com/userupload/10771194/file/original-00de21a3fa947c5ede426101fbda89bd.jpg
+tags:
+  - 折腾
+feature: https://i0.hdslb.com/bfs/article/d130eeba0c555cdbcae292e70df3e505514080334.jpg
 ---
 ### 刷Armbian固件
 
