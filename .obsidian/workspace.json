@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/coding/wankeyun.md",
+                "file": "content/posts/coding/xiaomi12x-android.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0fc870715cd517e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e0e1d303a3528f9",
+            "type": "leaf",
+            "state": {
+              "type": "hugo-preview-view",
+              "state": {}
             }
           }
         ]
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/coding/wankeyun.md",
+                "file": "content/posts/coding/xiaomi12x-android.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/coding/wankeyun.md",
+                "file": "content/posts/coding/xiaomi12x-android.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/coding/wankeyun.md"
+                "file": "content/posts/coding/xiaomi12x-android.md"
               }
             }
           }
@@ -147,13 +161,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f392864fb331ac42",
+  "active": "8e0e1d303a3528f9",
   "lastOpenFiles": [
-    "content/posts/coding/yandaowang.md",
-    "content/posts/coding/xiaomi12x-android.md",
     "content/posts/coding/wankeyun.md",
     "content/posts/coding/colagpt.md",
     "content/posts/coding/android-ios.md",
+    "content/posts/coding/xiaomi12x-android.md",
+    "content/posts/coding/yandaowang.md",
     "content/posts/coding/_index.md",
     "conflict-files-obsidian-git.md"
   ]

@@ -83,7 +83,8 @@ curl -fsSL cn-get.casaos.io | bash
 
 然后就可以用浏览器访问你的CasaOS了，**浏览器输入玩客云IP地址即可**。
 
-![https://cdn.dribbble.com/userupload/10771601/file/original-b2a8b67455d819fd613eeaf74fb93ce3.webp](https://cdn.dribbble.com/userupload/10771601/file/original-b2a8b67455d819fd613eeaf74fb93ce3.webp)
+![](https://i0.hdslb.com/bfs/article/4235ea06a2d0f92612eaa0458d5f85af514080334.jpg)
+
 
 ---
 
@@ -105,7 +106,7 @@ docker exec -it alist ./alist admin
 
 最后在浏览器中输入**IP加端口号5244**便可进入Alist
 
-![https://cdn.dribbble.com/userupload/10771602/file/original-4ebceacf2807575f1c7b7bbd4e0d3903.webp](https://cdn.dribbble.com/userupload/10771602/file/original-4ebceacf2807575f1c7b7bbd4e0d3903.webp)
+![](https://i0.hdslb.com/bfs/article/93068bf0801295a8ec77aff9b86324de514080334.jpg)
 
 后期我会出我的Alist美化教程。以下是Alist官方文档：
 
