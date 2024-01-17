@@ -21,7 +21,13 @@
 	--main-color: #1890ff;
 	--main-hover-color: #40a9ff;
 }
-.container{min-width:320px;max-width:unset;}
+*, :before, :after {
+	box-sizing: border-box;
+	border-width: 0;
+	border-style: solid;
+	border-color: inherit;
+}
+.container{min-width:320px;}
 #memo-list a{padding-bottom:0;border-bottom:0;}
 /* title */
 a.primary {
@@ -64,6 +70,8 @@ button,a {
 	background: var(--dark-background-secondary);
 	color: inherit;
 }
+.dark .user-now .button{background: transparent;}
+
 .button.outline,
 a.button.outline,
 button.outline,
@@ -202,15 +210,15 @@ pre code {
 code {
 	margin: 0 4px;
 	padding: 3px 8px 2px;
-	border: 1px solid #b8e0f3;
+	border: 1px solid var(--light-color-secondary);
 	border-radius: .33rem;
-	background-color: #e6f7ff;
+	background-color: var(--light-background-secondary);
 	vertical-align: middle;
 	font-size: .75rem;
 }
 
 .dark code {
-	border: 1px solid var(--dark-border-color);
+	border: 1px solid var(--dark-color-secondary);
 	background-color: var(--dark-background-secondary);
 }
 
@@ -390,6 +398,7 @@ blockquote {
 	padding: .25rem;
 	border-radius: .33rem;
 	background-color: var(--light-background-secondary);
+	font-size:1rem;
 }
 
 .dark .dropdown-wrapper {
@@ -404,8 +413,8 @@ blockquote {
 	user-select: none;
 	display: flex;
 	justify-content: center;
-	padding: .5rem 1rem;
-	line-height: 1rem;
+	padding: .2rem 1rem;
+	line-height: 1.6rem;
 	border-radius: .24rem;
 }
 
@@ -489,6 +498,25 @@ blockquote {
 
 .dark .card-item .item-avatar {
 	background-color: var(--dark-background);
+}
+.userlist{
+	justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    height: 168px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+}
+.userlist.row{margin-right:0;margin-left:0;}
+.userlist.card-item .item-avatar {
+    background-color: var(--light-background);
+    border-radius: 50%;
+    margin: 0 6px 5px 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 .card-item .item-sub {
@@ -677,4 +705,8 @@ button.button-load{width:98%;margin:0 auto;}
 .emoji-item:hover {
     background: var(--light-background-hover);
     border-radius: 4px
+}
+@media (max-width:480px) {
+	.user-now-name{display:none;}
+	.user-now .row-fill span.mr-2{margin-right:0 !important;}
 }
