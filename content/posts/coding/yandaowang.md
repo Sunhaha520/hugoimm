@@ -3,7 +3,7 @@ title: 研导博客上线！公益小站
 date: 2023-07-25T00:00:06+0800
 tags:
   - 折腾
-feature: https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/20240116/original-8118feb605800ff91d5f56e285cb1a73.3nkmlimq4ca0.webp
+feature: https://i0.hdslb.com/bfs/article/c3e9f51b03addb9e4994d165d68e94ab514080334.jpg
 ---
 ### 网站由来
 

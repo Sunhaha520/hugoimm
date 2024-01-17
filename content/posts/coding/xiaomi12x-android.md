@@ -5,7 +5,6 @@ tags:
   - 折腾
 feature: https://i0.hdslb.com/bfs/article/eadb3688ef8d0e4dcbd906d886d62e72514080334.jpg
 ---
-
 ### 引言
 
 自从手机买来之后，我的小米12X一直使用原厂系统，但是最近发生的一件事，让我对这手机系统的安全性产生了怀疑。</br>

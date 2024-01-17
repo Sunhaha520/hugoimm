@@ -4,8 +4,6 @@ date: 2023-10-06T00:00:06+0800
 tags: [折腾]
 feature:  https://cdn.dribbble.com/userupload/10771194/file/original-00de21a3fa947c5ede426101fbda89bd.jpg
 ---
-
-
 ### 刷Armbian固件
 
 首先，先给出所需要的固件，玩客云armbian固件下载地址：[https://github.com/hzyitc/armbian-onecloud/releases](https://github.com/hzyitc/armbian-onecloud/releases)
