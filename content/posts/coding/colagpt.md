@@ -3,7 +3,7 @@ title: 可乐君的GPT，好用的智能助理
 date: 2023-09-25T00:00:06+0800
 tags:
   - 折腾
-feature: https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/colagpt.webp
+feature: https://gitee.com/sunzhenyudsg/blogtuku/raw/master/img/colagpt.webp
 cover: false
 ---
 
@@ -16,13 +16,13 @@ cover: false
 至于说小钱，ε=(´ο｀*)))唉，可乐君要把GPT的价格打下来，绝对做第三方站点最便宜的GPT。
 
 ## 页面展示
-![](https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/1.webp)
 
+![](https://gitee.com/sunzhenyudsg/blogtuku/raw/master/img/21.webp)
 
-![](https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/2.webp)
+![](https://gitee.com/sunzhenyudsg/blogtuku/raw/master/img/colagot11.webp)
+![](https://gitee.com/sunzhenyudsg/blogtuku/raw/master/img/3322.webp)
 
-![](https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/3.webp)
-![](https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/5.webp)
+![](https://gitee.com/sunzhenyudsg/blogtuku/raw/master/img/55.webp)
 
 ## 功能大全
 
