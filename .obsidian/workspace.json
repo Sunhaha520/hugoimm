@@ -4,33 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9e4f3544e8f46192",
+        "id": "1e6a92334a563001",
         "type": "tabs",
         "children": [
           {
-            "id": "f392864fb331ac42",
+            "id": "88321daedda16a29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/coding/xiaomi12x-android.md",
+                "file": "content/posts/coding/android-ios.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0fc870715cd517e1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8e0e1d303a3528f9",
-            "type": "leaf",
-            "state": {
-              "type": "hugo-preview-view",
-              "state": {}
             }
           }
         ]
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/coding/xiaomi12x-android.md",
+                "file": "content/posts/coding/android-ios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/coding/xiaomi12x-android.md",
+                "file": "content/posts/coding/android-ios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/coding/xiaomi12x-android.md"
+                "file": "content/posts/coding/android-ios.md"
               }
             }
           }
@@ -147,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,14 +146,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8e0e1d303a3528f9",
+  "active": "88321daedda16a29",
   "lastOpenFiles": [
+    "content/posts/coding/_index.md",
+    "content/posts/coding/android-ios.md",
+    "content/posts/coding/yandaowang.md",
+    "content/posts/coding/xiaomi12x-android.md",
     "content/posts/coding/wankeyun.md",
     "content/posts/coding/colagpt.md",
-    "content/posts/coding/android-ios.md",
-    "content/posts/coding/xiaomi12x-android.md",
-    "content/posts/coding/yandaowang.md",
-    "content/posts/coding/_index.md",
     "conflict-files-obsidian-git.md"
   ]
 }

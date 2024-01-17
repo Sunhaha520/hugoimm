@@ -10,9 +10,9 @@ feature: https://i0.hdslb.com/bfs/article/6f0653da436729d7ef8c951b503f3b7b514080
 现在市面上推出的**Android** 手机**RAM** 配置越来越高，有些至尊、旗舰机型甚至比一些电脑还要高，而且还是一种常态现象，举例来说，**Pixel 6 Pro** 配置**12GB**，甚至**ZTE nubia Z40S Pro**已经干到了**18GB**。
 
 但是，随着安卓RAM的暴增，iPhone似乎有些云淡风轻，**iPhone 13 Pro** 则配置**6GB RAM**，而**iPhone 13** 仅靠**4GB** 就能撑全场，效能上却不分上下，这到底是为什么？
+
 ![日益增长的手机RAM，可以看出安卓的爆炸](https://i0.hdslb.com/bfs/article/5b765f9c8134a410981ed051ee7c714b514080334.jpg)
 
-日益增长的手机RAM，可以看出安卓的爆炸
 
 ---
 
@@ -33,6 +33,7 @@ feature: https://i0.hdslb.com/bfs/article/6f0653da436729d7ef8c951b503f3b7b514080
 IOS主要使用Objective-C / Swift 语言，当开发人员为 iOS 开发应用程序时，**应用程序将直接编译成可在 iPhone 处理器上运行的代码**。这意味着代码是原生已知的，不需要任何其他虚拟环境或解释器即可运行。然而，Android 在这方面的工作方式有所不同。如前所述，Android 使用 Java。
 
 Java 的座右铭是 "**一次编写，随处运行**"，这对兼容平台的可见性有很多好处。当 Java 代码被编译后，它就变成了与处理器无关的中间件（Java 字节码）。相同的 Java 字节码可以在徽标处理器、x86 处理器或基于 RISC-V 架构的芯片上运行。
+
 ![](https://i0.hdslb.com/bfs/article/87e2f99ffb746f4da65c4de43756e645514080334.jpg)
 
 
