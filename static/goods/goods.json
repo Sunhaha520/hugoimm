@@ -1,0 +1,123 @@
+{
+    "good": [
+        {
+            "image": "/goods/xiaomi12x.webp",
+            "jiage": "¥3,299",
+            "title": "小米12X",
+            "link": "",
+            "note": "好用，小巧次旗舰，小团子送我的！我要用好久！"
+        },
+        {
+            "image": "/goods/songxia.webp",
+            "jiage": "¥180/¥6000",
+            "title": "松下GF3微单",
+            "link": "",
+            "note": "虽老，但是拍照依旧强劲，配了个小蚁镜头，拍人很不错。"
+        },
+        {
+            "image": "/goods/airpod3.webp",
+            "jiage": "¥1,399",
+            "title": "AirPods (第 3 代)",
+            "link": "",
+            "note": "小团子买的，我用了一段时间，后来她抢走了。"
+        },
+       {
+            "image": "/goods/rongya.webp",
+            "jiage": "¥219",
+            "title": "荣耀手环6",
+            "link": "",
+            "note": "计步，血氧，睡眠，NFC通通都有，表盘漂亮，屏幕较大，通知灵敏，比较满意。"
+        },
+       {
+            "image": "/goods/key.webp",
+            "jiage": "¥199",
+            "title": "RK-61机械键盘",
+            "link": "",
+            "note": "我对键盘没需求，感觉还不错，京东羊毛19元到手，也算是运气比较好了 。"
+        },
+       {
+            "image": "/goods/airpod1.webp",
+            "jiage": "¥1,024",
+            "title": "AirPods (第 1 代)",
+            "link": "",
+            "note": "买来给小团子考研用的，最后她用腻了和我换了，现在我在用，感觉不是很好。"
+        },
+        {
+            "image": "/goods/huawei.webp",
+            "jiage": "¥7,499",
+            "title": "华为Matebook14(2019 i7)",
+            "link": "",
+            "note": "颜值可以，一直在用，装了三系统：Linux，Windows和fydeos。无论是写代码还是画CAD都还流畅。"
+        },
+       {
+            "image": "/goods/iphonexr.webp",
+            "jiage": "¥6,999",
+            "title": "iPhone Xr(128GB,黑色)",
+            "link": "",
+            "note": "上大学父母给买的，一直用到大三，现在退役，可能是我爸在用。"
+        },
+        {
+            "image": "/goods/ipad.webp",
+            "jiage": "¥980/¥2600",
+            "title": "iPad 2018",
+            "link": "",
+            "note": "买的二手，陪伴我度过大学几年，来的时候和卖家描述不符发生了争执，但是没想到一直坚挺到现在。"
+        },
+        {
+            "image": "/goods/redmi.webp",
+            "jiage": "¥198",
+            "title": "红米Bud4",
+            "link": "",
+            "note": "性价比不错，有降噪，也小巧，就是耳朵带久了会疼，可惜在路上丢了。"
+        },
+        {
+            "image": "/goods/xiaoai.webp",
+            "jiage": "¥60/¥199",
+            "title": "小爱触屏音响",
+            "link": "https://www.epson.com.cn/products/L-all-in-ones/L3153/",
+            "note": "平时听听歌挺好的，也是个不错的天气助手和闹钟，就是半夜会抽风说我在."
+        },
+        {
+            "image": "/goods/lg7.webp",
+            "jiage": "¥388/¥4,599",
+            "title": "LG G7",
+            "link": "",
+            "note": "因为看很多人都有这部手机，我就买了一台，刷过一些国内系统，感觉并没有说的那么厉害，最后368出掉。"
+        },
+        {
+            "image": "/goods/xiaomi2.webp",
+            "jiage": "¥99",
+            "title": "小米 Air2",
+            "link": "",
+            "note": "自从红米掉了买了个它搭配我小米手机使用，听个响，本人对音质没要求。"
+        },
+        {
+            "image": "/goods/gu.webp",
+            "jiage": "¥168",
+            "title": "联想X4骨传导耳机",
+            "link": "",
+            "note": "之前耳朵发炎，买了它，确实有用，运动出门带着方便，室内安静就不要用了，有点漏音。"
+        },
+        {
+            "image": "/goods/yuedu.webp",
+            "jiage": "¥499",
+            "title": "口袋阅(1代)",
+            "link": "",
+            "note": "护眼便携，还能打电话，续航持久，看书神器，已经root，毕业后都在吃灰。"
+        },
+        {
+            "image": "/goods/pixel3.webp",
+            "jiage": "¥380/¥5,675",
+            "title": "Google Pixel3(4+128GB)",
+            "link": "",
+            "note": "体验谷歌亲儿子，最强单摄，咸鱼买的，目前用来白嫖谷歌相册无限空间。"
+        },
+        {
+            "image": "/goods/yijia.webp",
+            "jiage": "¥298/¥3,999",
+            "title": "一加6T(8+256GB)",
+            "link": "",
+            "note": "咸鱼捡漏，用它刷了各种系统，体验了各种玩机乐趣，最后400出掉了。"
+        }
+    ]
+}
