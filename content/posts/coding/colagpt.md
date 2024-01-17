@@ -1,8 +1,9 @@
 ---
-title: "可乐君的GPT，好用的智能助理"
+title: 可乐君的GPT，好用的智能助理
 date: 2023-09-25T00:00:06+0800
-tags: [折腾]
-feature:  https://cdn.dribbble.com/userupload/4254879/file/original-c554aa05dd5033a2e5eda9a940ec7a95.png
+tags:
+  - 折腾
+feature: https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/colagpt.webp
 cover: false
 ---
 
@@ -15,14 +16,13 @@ cover: false
 至于说小钱，ε=(´ο｀*)))唉，可乐君要把GPT的价格打下来，绝对做第三方站点最便宜的GPT。
 
 ## 页面展示
+![](https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/1.webp)
 
-![https://cdn.dribbble.com/userupload/9584153/file/original-c29df7c82a76dda99dc49788567d4f5b.png](https://cdn.dribbble.com/userupload/9584153/file/original-c29df7c82a76dda99dc49788567d4f5b.png)
 
-![https://cdn.dribbble.com/userupload/9584163/file/original-cbbc42642d63b182cb6d7b6cda918ab5.png](https://cdn.dribbble.com/userupload/9584163/file/original-cbbc42642d63b182cb6d7b6cda918ab5.png)
+![](https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/2.webp)
 
-![https://cdn.dribbble.com/userupload/10626966/file/original-36b183c4bd9ce7d259a5ea31720add7a.webp](https://cdn.dribbble.com/userupload/10626966/file/original-36b183c4bd9ce7d259a5ea31720add7a.webp)
-
-![https://cdn.dribbble.com/userupload/10626982/file/original-0a09531d0110352e1afd2b45c73f999e.webp](https://cdn.dribbble.com/userupload/10626982/file/original-0a09531d0110352e1afd2b45c73f999e.webp)
+![](https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/3.webp)
+![](https://cdn.jsdelivr.net/gh/sunhaha520/tuku/D/5.webp)
 
 ## 功能大全
 

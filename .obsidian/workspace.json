@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/coding/wankeyun.md",
+                "file": "content/posts/coding/colagpt.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/coding/wankeyun.md",
+                "file": "content/posts/coding/colagpt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/coding/wankeyun.md",
+                "file": "content/posts/coding/colagpt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/coding/wankeyun.md"
+                "file": "content/posts/coding/colagpt.md"
               }
             }
           }
@@ -149,11 +149,12 @@
   },
   "active": "f392864fb331ac42",
   "lastOpenFiles": [
+    "content/posts/coding/android-ios.md",
+    "content/posts/coding/_index.md",
     "content/posts/coding/yandaowang.md",
     "content/posts/coding/xiaomi12x-android.md",
-    "conflict-files-obsidian-git.md",
     "content/posts/coding/wankeyun.md",
-    "content/posts/coding/android-ios.md",
+    "conflict-files-obsidian-git.md",
     "content/posts/coding/colagpt.md"
   ]
 }
