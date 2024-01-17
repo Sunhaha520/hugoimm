@@ -1,8 +1,9 @@
 ---
-title: "小米12X类原生体验"
+title: 小米12X类原生体验
 date: 2024-01-16T00:00:06+0800
-tags: [折腾]
-feature: https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/20240116/微信图片_20240116111416.c6o9ewhk1w8.webp
+tags:
+  - 折腾
+feature: https://i0.hdslb.com/bfs/article/eadb3688ef8d0e4dcbd906d886d62e72514080334.jpg
 ---
 
 ### 引言
@@ -68,7 +69,8 @@ feature: https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/202401
 
 ### Magisk与LSPosed模块
 
-![模块](https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/20240116/微信图片_20240116153305.3m589fqavsy0.webp)
+![](https://i0.hdslb.com/bfs/article/2adf83b0d9a8f3cfd20938a2d69d314a514080334.jpg)
+
 
 - **米窗**:类原生无小窗，这是解决这个问题的最优解，配合Xposed Edge Pro可以实现极致的小窗体验，据说有的类原生逆向出了小窗。
 - **微X模块**:薅羊毛集赞，防撤回，抢红包必备。
@@ -86,7 +88,7 @@ feature: https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/202401
 
 ### 美化结果
 
-![美化](https://jsd.cdn.zzko.cn/gh/Sunhaha520/picx-images-hosting@master/20240116/微信图片_20240116155530.5gllxstc78c0.webp)
+![](https://i0.hdslb.com/bfs/article/481f0678dabd0ce84190d196f6e49751514080334.jpg)
 
 类原生美化出来也不比国产UI差，简洁又好看，暂且叫他XiaomiPlus哆啦爱梦定制版。
 
