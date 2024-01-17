@@ -3,7 +3,7 @@ title: 可乐君的GPT，好用的智能助理
 date: 2023-09-25T00:00:06+0800
 tags:
   - 折腾
-feature: https://gitee.com/sunzhenyudsg/blogtuku/raw/master/img/colagpt.webp
+feature: https://i0.hdslb.com/bfs/article/c6ede35ce8b915828c56dfce0b9676e4514080334.jpg
 cover: false
 ---
 
