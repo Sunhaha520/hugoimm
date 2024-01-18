@@ -3,7 +3,7 @@ title: 深夜随笔
 date: 2024-01-19T03:16:44+0800
 tags:
   - 日常
-feature: https://i0.hdslb.com/bfs/article/f331ab3f4529e276c06506604dc161d1514080334.jpg
+feature: https://i0.hdslb.com/bfs/article/bec73f59b8fd3fab59f64d5f3edfcbf1514080334.jpg
 ---
 ### 前记
 
@@ -12,8 +12,23 @@ feature: https://i0.hdslb.com/bfs/article/f331ab3f4529e276c06506604dc161d1514080
 也许是本着睡不着也不能浪费时间的原则，我便起来写写博客。
 ### 起因
 昨天是腊八节，俗语道：“过了腊八就是年”。这天我吃了腊八粥和一顿丰盛的晚宴，嘴巴甚是满足，本来也没多想，吃饱喝足，无聊至极，便搞搞网站，折腾折腾功能，累了就玩玩游戏；这似乎和之前“混日子”的昨天，前天，n天没什么两样，直到有人对我说了这两句话：
-- 我今年要50岁了。
+- 我马上要50岁了。
 - 你什么时候娶我？
 
 首先。大家别误会，这不是富婆对可乐君的逼婚追问，以上两句话来源两个人，前一句来自我的父亲，后一句来自我的女朋友，为了证明清白，我贴出聊天记录。
 
+![](https://i0.hdslb.com/bfs/article/e5b35318f4d444e7163081ad5ef2bee0514080334.jpg)
+
+这确实是非常平常的两句话，但是境由心生，以我目前的烂摊子处境，这两句话确实容易让我破防。
+
+### 为何破防？
+
+
+> 假如我年少有为不自卑</br>
+> 懂得什么是珍贵</br>
+> 那些美梦</br>
+> 没给你 我一生有愧</br>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1293886117&auto=1&height=66"></iframe>
+
+很多年前，我爱听李荣浩的《年少有为》
