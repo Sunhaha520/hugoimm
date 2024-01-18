@@ -11,7 +11,25 @@
             "id": "09a48f56e5e8eb5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/daily/suibi1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3694639b64f99977",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f74915208e3318d",
+            "type": "leaf",
+            "state": {
+              "type": "hugo-preview-view",
               "state": {}
             }
           }
@@ -81,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/daily/suibi1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/posts/daily/suibi1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/posts/daily/suibi1.md"
+              }
             }
           }
         ]
@@ -139,7 +161,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "09a48f56e5e8eb5e",
+  "active": "3f74915208e3318d",
   "lastOpenFiles": [
     "content/posts/daily/suibi1.md",
     "content/about.md",
