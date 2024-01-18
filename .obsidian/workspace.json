@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3694639b64f99977",
+        "id": "8b9b62bcf2110560",
         "type": "tabs",
         "children": [
           {
-            "id": "d28fc1551dfc87d7",
+            "id": "10f5d3b908205a0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d28fc1551dfc87d7",
+  "active": "10f5d3b908205a0a",
   "lastOpenFiles": [
-    "content/posts/daily/_index.md",
     "content/posts/daily/suibi1.md",
+    "content/posts/daily/_index.md",
     "content/about.md",
     "content/posts/coding/xiaomi12x-android.md",
     "content/album.md",
