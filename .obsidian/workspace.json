@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/daily/shengye1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/daily/shengye1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/daily/shengye1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/about.md"
+                "file": "content/posts/daily/shengye1.md"
               }
             }
           }
@@ -147,10 +147,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d3af0627e283a21d",
+  "active": "2a38dc16ea6a5a23",
   "lastOpenFiles": [
-    "content/posts/coding/xiaomi12x-android.md",
     "content/about.md",
+    "content/posts/daily/shengye1.md",
+    "content/posts/coding/xiaomi12x-android.md",
     "content/album.md",
     "content/posts/coding/android-ios.md",
     "content/posts/coding/_index.md",
