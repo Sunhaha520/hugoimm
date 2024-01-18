@@ -1,6 +1,6 @@
 [
-  "hugo-preview-obsidian",
   "templater-obsidian",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "hugo-preview-obsidian"
 ]
