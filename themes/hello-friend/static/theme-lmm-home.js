@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 var bbDom = document.querySelector('#bber-talk') || '';
 if(bbDom){memoTalks();}
 function memoTalks(){
-var bbUrl = "http://121.37.141.32:5230/api/v1/memo?creatorId=1&rowStatus=NORMAL&limit=10"
+var bbUrl = "//121.37.141.32:5230/api/v1/memo?creatorId=1&rowStatus=NORMAL&limit=10"
 fetch(bbUrl).then(res => res.json()).then( resdata =>{
     var result = '',resultAll="",data = resdata
     for(var i=0;i < data.length;i++){
