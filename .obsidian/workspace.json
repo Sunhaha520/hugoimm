@@ -20,20 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "45af0535e37d5bba",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4f1a616479c29b38",
-            "type": "leaf",
-            "state": {
-              "type": "hugo-preview-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +147,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4f1a616479c29b38",
+  "active": "d28fc1551dfc87d7",
   "lastOpenFiles": [
     "content/posts/daily/suibi1.md",
     "content/about.md",
