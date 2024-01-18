@@ -24,7 +24,7 @@ feature: https://i0.hdslb.com/bfs/article/eadb3688ef8d0e4dcbd906d886d62e72514080
 
 你可以从GitHub上获取最新的Paranoid Android Topaz构建版本。请注意，除非内核特别声明支持Paranoid Android且包含谷歌移动服务（GMS），否则不支持自定义内核。</br>
 
-**下载地址**：https://github.com/mickaelmendes50/android_device_xiaomi_psyche/releases
+**下载地址**：<https://github.com/mickaelmendes50/android_device_xiaomi_psyche/releases>
 
 ### 推荐固件
 

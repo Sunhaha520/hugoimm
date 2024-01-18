@@ -9,6 +9,7 @@ layout: 'posts'
 - Hugo：<https://gohugo.io/>
 - 本站源码：<https://github.com/Sunhaha520/hugoimm>
 - 感谢木木大佬：<https://github.com/lmm214/immmmm>
+- 主站地址：<https://cola.xiaoayu.ren>
 
 <!--more-->
 
