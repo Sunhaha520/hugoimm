@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
 <meta name="keywords" content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}"/>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 
 <link rel="alternate" type="application/rss+xml" href="/feed" title="{{ $.Site.Title }}">
 <link rel="canonical" href="{{ .Permalink }}" />
