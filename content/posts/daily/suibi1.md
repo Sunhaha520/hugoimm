@@ -17,18 +17,14 @@ feature: https://i0.hdslb.com/bfs/article/bec73f59b8fd3fab59f64d5f3edfcbf1514080
 
 首先。大家别误会，这不是富婆对可乐君的逼婚追问，以上两句话来源两个人，前一句来自我的父亲，后一句来自我的女朋友，为了证明清白，我贴出聊天记录。
 
-![](https://i0.hdslb.com/bfs/article/e5b35318f4d444e7163081ad5ef2bee0514080334.jpg)
+<img src="C:\Users\sunzhenyu\Desktop\jilu.jpg" style="zoom: 33%;" />
 
 这确实是非常平常的两句话，但是境由心生，以我目前的烂摊子处境，这两句话确实容易让我破防。
 
 ### 为何破防？
-
-
 > 假如我年少有为不自卑</br>
 > 懂得什么是珍贵</br>
 > 那些美梦</br>
 > 没给你 我一生有愧</br>
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1293886117&auto=1&height=66"></iframe>
 
 很多年前，我爱听李荣浩的《年少有为》
