@@ -16,7 +16,7 @@ var memoDefaultList = [
    {
     creatorName:'可乐君',
     website:'https://cola.xiaoayu.ren',
-    link:'https://lonely-susann-cola.koyeb.app',
+    link:'http://121.37.141.32:5230',
     creatorId:'1',
     avatar:gravatar+'/avatar/6e12b4d77e70b3cad6336b2b265b2a1f.png?s=400',
     twikoo:'https://zhenyu1-talkcomment.hf.space'
