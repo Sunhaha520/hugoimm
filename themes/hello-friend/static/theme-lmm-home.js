@@ -30,7 +30,7 @@ setInterval(function() {
 }
 //memos 相册
 var albumDom = document.querySelector('#album') || '';
-var memoUrl = "http://121.37.141.32:5230/"
+var memoUrl = "//121.37.141.32:5230/"
 if(albumDom){memoAlbum(7);}
 function memoAlbum(numb){
     let limit = numb || 8;
