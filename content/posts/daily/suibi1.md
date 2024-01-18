@@ -17,7 +17,7 @@ feature: https://i0.hdslb.com/bfs/article/bec73f59b8fd3fab59f64d5f3edfcbf1514080
 
 首先。大家别误会，这不是富婆对可乐君的逼婚追问，以上两句话来源两个人，前一句来自我的父亲，后一句来自我的女朋友，为了证明清白，我贴出聊天记录。
 
-<img src="C:\Users\sunzhenyu\Desktop\jilu.jpg" style="zoom: 33%;" />
+<img src="https://i0.hdslb.com/bfs/article/e5b35318f4d444e7163081ad5ef2bee0514080334.jpg" style="zoom: 33%;" />
 
 这确实是非常平常的两句话，但是境由心生，以我目前的烂摊子处境，这两句话确实容易让我破防。
 
@@ -27,4 +27,4 @@ feature: https://i0.hdslb.com/bfs/article/bec73f59b8fd3fab59f64d5f3edfcbf1514080
 > 那些美梦</br>
 > 没给你 我一生有愧</br>
 
-很多年前，我爱听李荣浩的《年少有为》
+很多年前，我爱听李荣浩的《年少有为》，起初并不理解这段歌词的含义，后来
