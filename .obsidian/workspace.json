@@ -6,6 +6,7 @@
       {
         "id": "3694639b64f99977",
         "type": "tabs",
+        "dimension": 55.65693430656934,
         "children": [
           {
             "id": "d28fc1551dfc87d7",
@@ -24,6 +25,7 @@
       {
         "id": "476645ffddb9a02c",
         "type": "tabs",
+        "dimension": 44.34306569343065,
         "children": [
           {
             "id": "e40f6b775cb1b717",
@@ -161,7 +163,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e40f6b775cb1b717",
+  "active": "d28fc1551dfc87d7",
   "lastOpenFiles": [
     "content/posts/daily/suibi1.md",
     "content/about.md",
