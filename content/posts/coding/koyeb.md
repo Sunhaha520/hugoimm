@@ -20,3 +20,8 @@ feature: https://i0.hdslb.com/bfs/article/7d7ba1695bcfc604b3be171a6bbc67a5514080
 2.登录Koyeb官网，直接用Github账号登录，授权访问仓库。
 
 ![](https://i0.hdslb.com/bfs/article/4cf8061789e3f2010ebb8556801c285b514080334.png)
+
+3.创建应用
+
+![](https://i0.hdslb.com/bfs/article/516607180f1eb6a1b0fc1d5b93016475514080334.png)
+4.填写配置，部署应用
