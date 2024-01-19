@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d6e1a356301522c",
+        "id": "70ae5b4f0828a96f",
         "type": "tabs",
         "children": [
           {
-            "id": "66ed59c6768059bb",
+            "id": "de8bf33ff51d5650",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,20 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "70ae5b4f0828a96f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7a92736f2e62e8ae",
-            "type": "leaf",
-            "state": {
-              "type": "hugo-preview-view",
-              "state": {}
             }
           }
         ]
@@ -161,7 +147,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7a92736f2e62e8ae",
+  "active": "de8bf33ff51d5650",
   "lastOpenFiles": [
     "content/posts/coding/koyeb.md",
     "content/posts/daily/suibi1.md",
