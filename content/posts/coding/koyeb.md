@@ -41,3 +41,48 @@ feature: https://i0.hdslb.com/bfs/article/7d7ba1695bcfc604b3be171a6bbc67a5514080
 
 ### 部署成功
 Koyeb会给你一个域名，这个域名具有SSL，可以直接调用到网站的说说页面。
+
+![](https://i0.hdslb.com/bfs/article/60026b140a2c6123e1dbe6bb409eab43514080334.jpg)
+
+访问速度还是可以的，不能自定义域名，想要自定义域名的话需要升级Koyeb服务，也可以使用Cloudflare反代使用自己的域名。Cloudflare反代`worker.js`代码如下：
+```js
+const TELEGRAPH_URL = '你的域名';
+
+addEventListener('fetch', event => {
+
+  event.respondWith(handleRequest(event.request))
+
+})
+
+async function handleRequest(request) {
+
+  const url = new URL(request.url);
+
+  url.host = TELEGRAPH_URL.replace(/^https?:\/\//, '');
+
+  const modifiedRequest = new Request(url.toString(), {
+
+    headers: request.headers,
+
+    method: request.method,
+
+    body: request.body,
+
+    redirect: 'follow'
+
+  });
+
+  const response = await fetch(modifiedRequest);
+
+  const modifiedResponse = new Response(response.body, response);
+
+  // 添加允许跨域访问的响应头
+
+  modifiedResponse.headers.set('Access-Control-Allow-Origin', '*');
+
+  return modifiedResponse;
+
+}
+```
+把数据同步到博客请移步木木大佬博客：[哔哔点啥 3.0 By Memos](https://immmmm.com/bb-by-memos-v3/)
+，效果见哔哔页面。
