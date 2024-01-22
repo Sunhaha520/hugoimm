@@ -27,7 +27,8 @@
 	border-style: solid;
 	border-color: inherit;
 }
-.container{min-width:320px;}
+.container{min-width:375px;}
+#memo-list{min-height: 100vh;}
 #memo-list a{padding-bottom:0;border-bottom:0;}
 /* title */
 a.primary {
@@ -45,6 +46,8 @@ button,a {
 	margin-right: auto;
 	margin-left: auto;
 }
+.noclick{pointer-events:none;}
+.button+.button {margin-left: 0;}
 .button,a.button,button,.select,select {
 	position: relative;
 	display: flex;
@@ -63,13 +66,19 @@ button,a {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
+	margin-bottom:0;
 }
+.button.private.private-btn{background-color: var(--light-background-hover);}
+.dark .button.private.private-btn{background-color: var(--dark-background-hover);}
 .dark .button,
 .dark a.button,
 .dark button {
 	background: var(--dark-background-secondary);
 	color: inherit;
 }
+.user-now .button{border-radius: unset;}
+.user-now .button:hover,.user-now .button.current{color:var(--main-color);}
+.dark .user-now .button:hover,.dark .user-now .button.current{color:var(--main-color);}
 .dark .user-now .button{background: transparent;}
 
 .button.outline,
@@ -168,7 +177,7 @@ input:focus,input:active {
 	outline: none;
 	background-color: transparent;
 }
-
+input.search-memos-input{max-width:100px;}
 textarea {
 	font-family: inherit;
 	overflow-x: hidden;
@@ -358,6 +367,7 @@ blockquote {
 .dark .memos-editor-body{border: 1px solid var(--dark-background-hover);background-color: var(--dark-background-secondary);}
 .memos-editor-content,.memos-editor-footer,.memos-editor-option{display: flex;}
 .memos-editor-content .memos-editor-textarea{max-height: 160px;}
+.memos-image-list .image-background{background-size:cover;background-repeat:no-repeat;width:8rem;height:8rem;border-radius:0.33rem}
 .memos-image-list .memos-tag:hover{text-decoration: line-through;}
 .memos-editor-tools{display: flex;flex-direction: column;}
 .memos-editor-tools .iconfont{font-size:1.35rem;}
@@ -365,7 +375,7 @@ blockquote {
 .memos-editor-tools .memos-tag-list {display:flex;flex-wrap:wrap;align-items:center;line-height:2;}
 .memos-editor-tools .memos-tag {position:relative;}
 .memos-editor-tools .memos-tag a {flex:1}
-.memos-editor-footer .edit-memos {display:flex;}
+.memos-editor-footer .edit-memos {display:flex;text-wrap:nowrap;}
 .memos-tag{border:1px solid var(--light-background-hover);}
 .dark .memos-tag{border:1px solid var(--dark-background-hover);}
 .memos-tag.selected{
@@ -393,7 +403,7 @@ blockquote {
 	position: absolute;
 	display: flex;
 	flex-direction: column;
-	top: 0.4rem;
+	top: 0.65rem;
 	right: 0;
 	padding: .25rem;
 	border-radius: .33rem;
@@ -636,7 +646,10 @@ blockquote {
 .dark .load-btn:hover {
 	background: var(--dark-background-hover);
 }
+
+button{margin-bottom:0 !important;}
 button.button-load{width:98%;margin:0 auto;}
+buttom.cancel-edit-btn{margin-left:-1rem;}
 /*db-card*/
 .db-card{margin:2rem 3rem;background:#fafafa;box-shadow: 0 1px 2px rgb(0 0 0 / 25%), 0 0 1px rgb(0 0 0 / 25%);border-radius:0 !important;}
 .db-card-subject{display: flex;align-items:flex-start;line-height:1.6;padding:12px;position:relative;}
@@ -659,14 +672,18 @@ button.button-load{width:98%;margin:0 auto;}
 .db-card{box-shadow: none;margin:-10px -1rem 10px;}
 .dark .db-card{background:#252627;}
 /* db-card -------- end */
-.user-now .row-fill{display:flex;align-items: baseline;margin-left:auto;}
+
+.user-now .row-fill{display:flex;align-items:center;margin-left:auto;}
 .user-now .row-fill .iconfont,.load-memos-editor .iconfont{font-size: 1.25rem;}
 .user-now.row{margin-right:0;margin-left:0;}
 .user-now.card-item{overflow:unset;height:3.5rem;}
 .user-now.card-item .item-avatar{border-radius:unset;background-color: transparent;width:3.5rem;height:3.5rem;cursor: pointer;}
 .user-now.card-item .item-avatar img{border-radius:8px;display: inline-block;max-width: 100%;}
-.user-now-name{line-height: 3.9rem;}
+.user-now-name{height:3.5rem;line-height:3.5rem;}
 .user-now-name,.item-creator,.item-footer{font-size:0.875rem;}
+.item-footer svg{opacity:0.4;}
+.item-footer .item span{color: var(--light-color-secondary);}
+.dark .item-footer .item span{color: var(--dark-color-secondary);}
 .load-memos-editor{background: var(--light-background-secondary) !important;}
 .dark .load-memos-editor{background: var(--dark-background-secondary) !important;}
 
