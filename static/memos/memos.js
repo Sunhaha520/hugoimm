@@ -14,7 +14,7 @@ var memoDefaultList = [
  {
     "creatorName": "可乐君",
     "website": "https//:web.xiaoayu.ren",
-    "link": "https://lonely-susann-cola.koyeb.app",
+    "link": "https://memos.xiaoayu.eu.org",
     "creatorId": "1",
     "avatar": "https://cravatar.cn/avatar/6e12b4d77e70b3cad6336b2b265b2a1f.png?s=80",
     "twikoo": "https://zhenyu1-talkcomment.hf.space"
