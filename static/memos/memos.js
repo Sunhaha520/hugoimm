@@ -11,9 +11,9 @@ var memosDom = document.querySelector(memosData.dom);
 
 let memoList
 var memoDefaultList = [
- {
+  {
     "creatorName": "可乐君",
-    "website": "https//:web.xiaoayu.ren",
+    "website": "https://www.xiaoayu.ren",
     "link": "https://memos.xiaoayu.eu.org",
     "creatorId": "1",
     "avatar": "https://cravatar.cn/avatar/6e12b4d77e70b3cad6336b2b265b2a1f.png?s=80",
@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }else{
     try {
-      memoOurList = await getMemoListData("https://memobbs.app/memos.json"); // 获取自定义列表
+      memoOurList = await getMemoListData("https://testingcf.jsdelivr.net/gh/Sunhaha520/xiaoayu/memo.json"); // 获取自定义列表
     } catch (error) {
       memoOurList = memoDefaultList
     }
