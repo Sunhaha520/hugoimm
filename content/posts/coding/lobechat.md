@@ -94,3 +94,6 @@ https://zhenyu1-go-proxy-bingai.hf.space/api/v1
 
 ### 效果展示
 
+![](https://i0.hdslb.com/bfs/article/b010d94814a55540f2b2c4c0548cb8c5514080334.png)
+
+可以看到，给出几个典问题，它都可以顺利通过，同时LobeChat中内置了许多“角色”，大大提高了可玩性，插件功能自测，有些确实不行。
