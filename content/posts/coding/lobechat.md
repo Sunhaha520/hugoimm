@@ -65,5 +65,32 @@ Note
 
 
 出现的链接地址即访问的链接，点击右侧「Copy」按钮, 复制链接，到浏览器打开即可
-更多教程请参考官方文档：<https://github.com/Harry-zklcdc/go-proxy-bingai/wiki>
+更多部署方式请参考官方文档：<https://github.com/Harry-zklcdc/go-proxy-bingai/wiki>
 ### 部署LobeChat
+如果在 Vercel 上免费部署该服务，可以按照以下步骤进行操作：<br>
+1. 点击下方按钮开始部署： 直接使用 GitHub 账号登录即可
+2. 绑定自定义域名（可选）：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。<br>
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=lobe-chat&repository-name=lobe-chat)<br>
+部署完成后，你便可进入LobeChat！
+
+### 环境变量
+对于Go-Proxy-BingAI，我建议在huggingface中设置变量`APIKEY`，这样别人就无法使用你搭建的api。<br>
+示例：`APIKEY=sk-xxxxxxxxxxxxxx`<br>
+对于LobeChat,可去vercel中设置环境变量，变量如下：
+
+
+![](https://i0.hdslb.com/bfs/article/0380e322e526ccf0db5e162bcff9aa3d514080334.png)
+
+- `CUSTOM_MODELS`填写如下:
+```txt
+-all,+Creative-g4t,+Balanced-g4t,+Precise-g4t,+Creative,+Balanced,+Precise,+Creative-g4t-offline,+Balanced-g4t-offline,+Precise-g4t-offline,+Creative-offline,+Balanced-offline,+Precise-offline
+```
+
+- `ACCESS_CODE`自己设置，用于访问LobeChat用，防止他人使用。
+- `OPENAI_API_KEY`填写Go-Proxy-BingAI项目部署中设置的变量`APIKEY`
+- `OPENAI_PROXY_URL`填写huggingface部署的域名+/api/v1，例如我的就是以下链接：<br>
+https://zhenyu1-go-proxy-bingai.hf.space/api/v1
+
+
+### 效果展示
+
