@@ -46,7 +46,7 @@ Note
 
 然后点击下面的 「Duplicate Space」按钮
 
-⚠️upload failed, check dev console
+
 
 
 接下来会跳转到一个新的地址
