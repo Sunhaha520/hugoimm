@@ -41,7 +41,7 @@ Note
 #### 2. 复制空间
 
 登录账户后, 点击下面按钮</br>
-[![部署到HuggingFace](https://camo.githubusercontent.com/8a78fbeecb190a3c3654ee14fcd14fa01f9a75056eb3b1ba38ecd16fa9dfdec9/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f6465706c6f792d6f6e2d7370616365732d6d642e737667)](https://huggingface.co/spaces/Harry-zklcdc/go-proxy-bingai?duplicate=true&visibility=public)</br>
+[![部署到HuggingFace]()](https://huggingface.co/spaces/Harry-zklcdc/go-proxy-bingai?duplicate=true&visibility=public)</br>
 ☝🏻 这是个按钮, ☝🏻 这真的是个按钮
 
 然后点击下面的 「Duplicate Space」按钮
