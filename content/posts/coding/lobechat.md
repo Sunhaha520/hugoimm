@@ -30,9 +30,6 @@ Go-Proxy-BingAI项目是基于微软 New Bing 定制的微软 BingAI 演示站�
 
 
 下面我们将借助Huggingface免费部署这个项目！
-Note
-
-此教程主要是用于部署 BingAI 本体 + 人机验证服务器
 
 #### 1. 注册 🤗HuggingFace 账号
 
@@ -70,7 +67,7 @@ Note
 如果在 Vercel 上免费部署该服务，可以按照以下步骤进行操作：<br>
 1. 点击下方按钮开始部署： 直接使用 GitHub 账号登录即可
 2. 绑定自定义域名（可选）：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。<br>
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=lobe-chat&repository-name=lobe-chat)<br>
+[![Deploy with Vercel](https://gitee.com/sunzhenyudsg/blogtuku/raw/master/blog/lobechat/default.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=lobe-chat&repository-name=lobe-chat)<br>
 部署完成后，你便可进入LobeChat！
 
 ### 环境变量
