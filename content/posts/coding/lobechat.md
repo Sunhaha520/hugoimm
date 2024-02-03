@@ -41,7 +41,7 @@ Note
 #### 2. 复制空间
 
 登录账户后, 点击下面按钮</br>
-[![部署到HuggingFace]()](https://huggingface.co/spaces/Harry-zklcdc/go-proxy-bingai?duplicate=true&visibility=public)</br>
+[![部署到HuggingFace](https://gitee.com/sunzhenyudsg/blogtuku/raw/master/blog/lobechat/HF.svg)](https://huggingface.co/spaces/Harry-zklcdc/go-proxy-bingai?duplicate=true&visibility=public)</br>
 ☝🏻 这是个按钮, ☝🏻 这真的是个按钮
 
 然后点击下面的 「Duplicate Space」按钮
