@@ -1,12 +1,12 @@
 {
   "myMemoList" : [
   {
-    "creatorName": "可乐君",
+    "creatorName": "可乐�?",
     "website": "https://cola.xiaoayu.ren",
     "link": "https://memos.xiaoayu.eu.org",
     "creatorId": "1",
     "avatar": "https://cravatar.cn/avatar/6e12b4d77e70b3cad6336b2b265b2a1f.png?s=400",
-    "twikoo": "https://zhenyu1-talkcomment.hf.space"
+    "twikoo": "https://twikoo-ayu.netlify.app/.netlify/functions/twikoo"
   },{
     "creatorName": "归臧",
     "website": "https://nuoea.com/",
@@ -36,7 +36,7 @@
     "creatorId": "1",
     "avatar": "https://gravatar.memobbs.app/avatar/1cce0a22c2c7648eab76ec876c6a54d9?s=80",
     "artalk": "https://artalk.usj.cc",
-    "artSite": "优世界"
+    "artSite": "优世�?"
   },{
     "creatorName": "不亦乐乎",
     "website": "https://lms.pub",
@@ -256,7 +256,7 @@
     "creatorId" : "1",
     "avatar": "https://gravatar.memobbs.app/avatar/2463f1bd85aea23703f320e67d33f349?s=80"
   },{
-    "creatorName": "日志屿",
+    "creatorName": "日志�?",
     "website" : "https://ins.logyu.cc",
     "link" : "https://ins.logyu.cc",
     "twikoo" : "https://tk.logyu.cc",
