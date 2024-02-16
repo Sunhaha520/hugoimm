@@ -12,12 +12,12 @@ var memosDom = document.querySelector(memosData.dom);
 let memoList
 var memoDefaultList = [
   {
-    "creatorName": "可乐君",
+    "creatorName": "可乐�?",
     "website": "https://www.xiaoayu.ren",
     "link": "https://memos.xiaoayu.eu.org",
     "creatorId": "1",
     "avatar": "https://cravatar.cn/avatar/6e12b4d77e70b3cad6336b2b265b2a1f.png?s=80",
-    "twikoo": "https://zhenyu1-talkcomment.hf.space"
+    "twikoo": "https://twikoo-ayu.netlify.app/.netlify/functions/twikoo"
   },{
     "creatorName": "归臧",
     "website": "https://nuoea.com/",
@@ -41,7 +41,7 @@ var userNow = `
   <div class="call-memos-editor item-avatar p-3 "><img class="user-now-avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/ style="pointer-events: none;"></div>
   <span class="user-now-name"></span>
   <div class="row-fill">
-    <input class="search-memos-input border-b input-text py-2 animate__animated animate__fadeIn animate__fadeInRight d-none" type="text" placeholder="想搜点啥？" id="">
+    <input class="search-memos-input border-b input-text py-2 animate__animated animate__fadeIn animate__fadeInRight d-none" type="text" placeholder="想搜点啥�?" id="">
     <span class="search-memos-btn button d-md-flex p-2 mr-2">
       <svg xmlns="http://www.w3.org/2000/svg" width="1.15rem" height="1.15rem" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21l-4.3-4.3"/></g></svg>
     </span>
@@ -231,16 +231,16 @@ themeTogglebtn.addEventListener('click', function() {
 });
 
 document.addEventListener("DOMContentLoaded", async () => {
-  // 获取自定义列表
+  // 获取自定义列�?
   if(typeof memosJson !== 'undefined'){
     try {
-      memoOurList = await getMemoListData(memosJson.url); // 获取自定义列表
+      memoOurList = await getMemoListData(memosJson.url); // 获取自定义列�?
     } catch (error) {
       memoOurList = memoDefaultList
     }
   }else{
     try {
-      memoOurList = await getMemoListData("https://testingcf.jsdelivr.net/gh/Sunhaha520/xiaoayu/memo.json"); // 获取自定义列表
+      memoOurList = await getMemoListData("https://testingcf.jsdelivr.net/gh/Sunhaha520/xiaoayu/memo.json"); // 获取自定义列�?
     } catch (error) {
       memoOurList = memoDefaultList
     }
@@ -280,7 +280,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   getEditIcon();
 });
 
-// 获取自定义 memos.json 订阅列表
+// 获取自定�? memos.json 订阅列表
 async function getMemoListData(url) {
   const response = await fetch(url);
   const data = await response.json();
@@ -311,7 +311,7 @@ function memoFollow(mode) {
       page++;
     }
     updateData(memoData)
-    cocoMessage.success("加载中");
+    cocoMessage.success("加载�?");
   });
 
   async function getMemoCount(m) {
@@ -488,7 +488,7 @@ async function updateHtml(data) {
     if(transData.length>140){transData = transData.substring(0,140) + '...'};
     let memosForm = {creatorName:creatorName,content:transData,url:memosLink};
     let memosFormString = JSON.stringify(memosForm).replace(/"/g, '&quot;');
-    //解析 content 内 md 格式图片
+    //解析 content �? md 格式图片
     let imgArr = memo.content.match(IMG_REG);
     let imgStr = String(imgArr).replace(/[,]/g, '');
     if (imgArr) {
@@ -511,7 +511,7 @@ async function updateHtml(data) {
         return `<div class="item-tag d-flex align-items-center text-sm line-xl mr-2 px-2" onclick="getTagNow('${link}','${creatorId}','${creatorName}','${avatar}',this)">${String(t).replace(/[#]/, '')}</div>`;
       }).join('');
     }else{
-      memosTag = `<div class="item-tag d-flex align-items-center text-sm line-xl mr-2 px-2 no-cursor">动态</div>`;
+      memosTag = `<div class="item-tag d-flex align-items-center text-sm line-xl mr-2 px-2 no-cursor">动�?</div>`;
     }
     
     //解析内置资源文件
@@ -568,7 +568,7 @@ async function updateHtml(data) {
   function animation() {
     var animate = document.getElementsByClassName("animate__animated");
     Array.prototype.slice.call(animate,0).forEach(function(i,index){
-      const top = i.getBoundingClientRect().top; // 目标元素dom距离顶部的高度
+      const top = i.getBoundingClientRect().top; // 目标元素dom距离顶部的高�?
       if (top <= window.innerHeight) { // 当top小于等于文档显示区域的高时，就进入可视区域了
         i.classList.contains('animate__fadeIn"') ? '' : i.classList.add("animate__fadeIn")
       }
@@ -726,10 +726,10 @@ function goHome(){
   goBbsBtn.classList.remove("current")
   randomUser = 0;
   getUserMemos(nowLink,nowId,nowName,nowAvatar)
-  cocoMessage.success("Hi， "+nowName);
+  cocoMessage.success("Hi�? "+nowName);
 };
 
-//切换为广场模式
+//切换为广场模�?
 function goBbs(){
   goBbsBtn.classList.add("noclick")
   usernowBtnDom.forEach((item) => {item.classList.remove('current');})
@@ -741,7 +741,7 @@ function goBbs(){
   usernowName.innerHTML = "";
   usernowAvatar.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
   //goBbsBtn.classList.remove("noclick")
-  cocoMessage.success("有啥新鲜事儿？");
+  cocoMessage.success("有啥新鲜事儿�?");
 };
 
 goHomeBtn.addEventListener("click", function () {
@@ -768,7 +768,7 @@ function goRandUser(){
   let randomIndex = Math.floor(Math.random() * (memoList.length +1));
   let userNowData = memoList[randomIndex]
   getUserMemos(userNowData.link,userNowData.creatorId,userNowData.creatorName,userNowData.avatar,"","")
-  cocoMessage.success(userNowData.creatorName+" 上线～");
+  cocoMessage.success(userNowData.creatorName+" 上线�?");
 }
 
 //重载当前 user
@@ -927,7 +927,7 @@ function getTagNow(u,i,n,a,e){
   let tagName = e.innerHTML
   let tagnowDom = `
   <div class="memos-tagnow row p-2 mb-2"">
-    <div class="memos-tagnow-title mr-3">标签筛选:</div>
+    <div class="memos-tagnow-title mr-3">标签筛�?:</div>
     <div class="memos-tagnow-name card-item pr-2 pl-2" onclick="reloadUser()">${tagName}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-auto ml-1 opacity-40"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></div>
   </div>`
   memosDom.insertAdjacentHTML('beforebegin', tagnowDom);
@@ -1089,7 +1089,7 @@ function setMemoTag(e){
 }
 //归档
 function archiveMemo(memoId) {
-  let isOk = confirm("确认归档？");
+  let isOk = confirm("确认归档�?");
   if(isOk){
     memosOpenId = window.localStorage && window.localStorage.getItem("memos-access-token");
     if(memosOpenId && memoId){
@@ -1118,7 +1118,7 @@ function archiveMemo(memoId) {
 
 //删除
 function deleteMemo(memoId) {
-  let isOk = confirm("确认删除？");
+  let isOk = confirm("确认删除�?");
   if(isOk){
     memosOpenId = window.localStorage && window.localStorage.getItem("memos-access-token");
     if(memosOpenId && memoId){
@@ -1181,10 +1181,10 @@ function getEditIcon() {
       const matchingTags = Array.from(memosTagList.querySelectorAll('.memos-tag')).map(tag => tag.textContent);
       if (keyCode === 38 || keyCode === 40 || keyCode === 37 || keyCode === 39) { // 添加左右方向键的处理
         event.preventDefault();
-        if (keyCode === 37 || keyCode === 39) { // 处理左右方向键
+        if (keyCode === 37 || keyCode === 39) { // 处理左右方向�?
           const direction = keyCode === 37 ? -1 : 1;
           selectedTagIndex = (selectedTagIndex + direction + matchingTags.length) % matchingTags.length;
-        } else { // 处理上下方向键
+        } else { // 处理上下方向�?
           selectedTagIndex = (selectedTagIndex + (keyCode === 38 ? -1 : 1) + matchingTags.length) % matchingTags.length;
         }
         Array.from(memosTagList.querySelectorAll('.memos-tag')).forEach((option, index) => option.classList.toggle('selected', index  === selectedTagIndex));
@@ -1297,13 +1297,13 @@ function getEditIcon() {
       window.localStorage && window.localStorage.setItem("memos-mode",  "NOPUBLIC");
       let memosMode = window.localStorage && window.localStorage.getItem("memos-mode");
       getUserMemos(nowLink,nowId,nowName,nowAvatar,"","","NOPUBLIC")
-      cocoMessage.success("进入「私有浏览」模式")
+      cocoMessage.success("进入「私有浏览」模�?")
     }else{
       memosVisibilitySelect.value = "PUBLIC"
       window.localStorage && window.localStorage.setItem("memos-mode",  "");
       privateBtn.classList.remove("private")
       getUserMemos(nowLink,nowId,nowName,nowAvatar,"","","")
-      cocoMessage.success("已退出「私有浏览」模式")
+      cocoMessage.success("已退出「私有浏览」模�?")
     }
   });
   
@@ -1341,7 +1341,7 @@ function getEditIcon() {
     let filesData = uploadImageInput.files[0];
     if (uploadImageInput.files.length !== 0){
       uploadImage(filesData);
-      cocoMessage.info('图片上传中……');
+      cocoMessage.info('图片上传中…�?');
     }
   });
 
@@ -1444,7 +1444,7 @@ function getEditIcon() {
             })();
           }
           cocoMessage.success(
-            '发送成功',
+            '发送成�?',
             () => {
               clearTextarea()
             })
@@ -1454,7 +1454,7 @@ function getEditIcon() {
       cocoMessage.info('内容不能为空');
     }else{
       cocoMessage.info(
-        '请设置 Access Tokens',
+        '请设�? Access Tokens',
         () => {
           memosEditorInner.classList.add("d-none");
           memosEditorOption.classList.remove("d-none");
@@ -1466,7 +1466,7 @@ function getEditIcon() {
   function hasMemosOpenId() {
     if (!memosOpenId) {
       memosEditorOption.classList.remove("d-none"); 
-      cocoMessage.info('请设置 Access Tokens');
+      cocoMessage.info('请设�? Access Tokens');
     }else{
       const tagUrl = `${memosPath}/api/v1/tag`;
       const response = fetch(tagUrl,{
@@ -1548,7 +1548,7 @@ function deleteImage(e){
   } 
 }
 
-function imageListDrag(){// 获取包含所有图像元素的父元素
+function imageListDrag(){// 获取包含所有图像元素的父元�?
   const imageList = document.querySelector('.memos-image-list');
   // 存储被拖动的元素
   let draggedItem = null;
@@ -1568,16 +1568,16 @@ function imageListDrag(){// 获取包含所有图像元素的父元素
       this.classList.add('dragover'); // 添加拖动进入样式
     });
   
-    // 当拖动元素离开目标区域时
+    // 当拖动元素离开目标区域�?
     item.addEventListener('dragleave', function() {
       this.classList.remove('dragover'); // 移除拖动进入样式
     });
   
-    // 当拖动元素放置到目标区域时
+    // 当拖动元素放置到目标区域�?
     item.addEventListener('drop', function(e) {
       e.preventDefault(); // 阻止默认行为
       this.classList.remove('dragover'); // 移除拖动进入样式
-      // 计算拖动元素中心点
+      // 计算拖动元素中心�?
       const rect = this.getBoundingClientRect();
       const centerX = rect.left + rect.width / 2;
       // 判断鼠标相对中心点的位置
@@ -1619,9 +1619,9 @@ function clearTextarea(mode){
 // 获取 owo.json 文件中的数据
 let emojiSelectorVisible = false;
 let emojiSelector;
-let emojis = [{"icon": "😂","text": "哭笑不得"},{"icon": "😎","text": "酷"},{"icon": "😏","text": "坏笑"},{"icon": "😅","text": "流汗"},{"icon": "😄","text": "笑"},{"icon": "😜","text": "调皮"},{"icon": "🤣","text": "笑倒"},{"icon": "😭","text": "大哭"},{"icon": "🙄","text": "白眼"},{"icon": "🤐","text": "嘘"},{"icon": "😋","text": "美食脸"},{"icon": "🥶","text": "冰冻"},{"icon": "🥵","text": "热"},{"icon": "😴","text": "睡觉"},{"icon": "🤧","text": "打喷嚏"},{"icon": "🍉","text": "西瓜"},{"icon": "😱","text": "惊恐"},{"icon": "👋","text": "招手"},{"icon": "🔨","text": "锤子"},{"icon": "🐶","text": "小狗"},{"icon": "👏","text": "鼓掌"},{"icon": "🙈","text": "不看"},{"icon": "😓","text": "汗"},{"icon": "😍","text": "爱心眼"},{"icon": "🤝","text": "握手"},{"icon": "🥺","text": "求你"},{"icon": "😔","text": "沮丧"},{"icon": "😪","text": "困"},{"icon": "😕","text": "困惑"},{"icon": "🤷‍♂️","text": "摊手"},{"icon": "😛","text": "舌头"},{"icon": "🤭","text": "偷笑"},{"icon": "🤮","text": "呕吐"},{"icon": "🥺","text": "求你"},{"icon": "🙂","text": "轻松的笑"},{"icon": "😈","text": "恶魔"},{"icon": "😃","text": "笑脸"},{"icon": "🤫","text": "嘘"},{"icon": "😒","text": "无语"},{"icon": "😵","text": "晕"},{"icon": "💪","text": "加油"},{"icon": "👍","text": "赞"},{"icon": "👎",  "text": "踩"},{"icon": "😡","text": "愤怒"},{"icon": "🤬","text": "怒骂"},{"icon": "😖","text": "心烦"},{"icon": "🌹","text": "玫瑰"},{"icon": "🏃","text": "跑步"},{"icon": "😆","text": "大笑"},{"icon": "💵","text": "钞票"},{"icon": "😘","text": "飞吻"},{"icon": "😷","text": "生病"},{"icon": "🤕","text": "受伤"},{"icon": "🎉","text": "庆祝"},{"icon": "❤️","text": "红心"},{"icon": "💔","text": "心碎"},{"icon": "😣","text": "无奈"},{"icon": "😘","text": "飞吻"},{"icon": "💩","text": "一坨便便"},{"icon": "🤩","text": "爱慕"}];
+let emojis = [{"icon": "😂","text": "哭笑不得"},{"icon": "😎","text": "�?"},{"icon": "😏","text": "坏笑"},{"icon": "😅","text": "流汗"},{"icon": "😄","text": "�?"},{"icon": "😜","text": "调皮"},{"icon": "🤣","text": "笑�?"},{"icon": "😭","text": "大哭"},{"icon": "🙄","text": "白眼"},{"icon": "🤐","text": "�?"},{"icon": "😋","text": "美食�?"},{"icon": "🥶","text": "冰冻"},{"icon": "🥵","text": "�?"},{"icon": "😴","text": "睡觉"},{"icon": "🤧","text": "打喷�?"},{"icon": "🍉","text": "西瓜"},{"icon": "😱","text": "惊恐"},{"icon": "👋","text": "招手"},{"icon": "🔨","text": "锤子"},{"icon": "🐶","text": "小狗"},{"icon": "👏","text": "鼓掌"},{"icon": "🙈","text": "不看"},{"icon": "😓","text": "�?"},{"icon": "😍","text": "爱心�?"},{"icon": "🤝","text": "握手"},{"icon": "🥺","text": "求你"},{"icon": "😔","text": "沮丧"},{"icon": "😪","text": "�?"},{"icon": "😕","text": "困惑"},{"icon": "🤷‍♂�?","text": "摊手"},{"icon": "😛","text": "舌头"},{"icon": "🤭","text": "偷笑"},{"icon": "🤮","text": "呕吐"},{"icon": "🥺","text": "求你"},{"icon": "🙂","text": "轻松的笑"},{"icon": "😈","text": "恶魔"},{"icon": "😃","text": "笑脸"},{"icon": "🤫","text": "�?"},{"icon": "😒","text": "无语"},{"icon": "😵","text": "�?"},{"icon": "💪","text": "加油"},{"icon": "👍","text": "�?"},{"icon": "👎",  "text": "�?"},{"icon": "😡","text": "愤�?"},{"icon": "🤬","text": "怒骂"},{"icon": "😖","text": "心烦"},{"icon": "🌹","text": "玫瑰"},{"icon": "🏃","text": "跑步"},{"icon": "😆","text": "大笑"},{"icon": "💵","text": "钞票"},{"icon": "😘","text": "飞吻"},{"icon": "😷","text": "生病"},{"icon": "🤕","text": "受伤"},{"icon": "🎉","text": "庆祝"},{"icon": "❤️","text": "红心"},{"icon": "💔","text": "心碎"},{"icon": "😣","text": "无奈"},{"icon": "😘","text": "飞吻"},{"icon": "💩","text": "一坨便�?"},{"icon": "🤩","text": "爱慕"}];
 
-// 表情选择器点击事件处理
+// 表情选择器点击事件处�?
 biaoqingBtn.addEventListener("click", function (event) {
   event.stopPropagation();
   emojiSelectorVisible = !emojiSelectorVisible;
@@ -1631,7 +1631,7 @@ biaoqingBtn.addEventListener("click", function (event) {
     emojiSelector?.remove();
   }
 });
-// 显示表情选择器
+// 显示表情选择�?
 function displayEmojiSelector() {
   if (!emojiSelector) {
     emojiSelector = document.createElement('div');
@@ -1672,7 +1672,7 @@ function insertEmoji(emojiText) {
  * Lately.min.js 2.5.2
  * https://tokinx.github.io/lately/
  */
-!function(){window.Lately=new function(){var t=this;this.lang={second:"秒",minute:"分钟",hour:"小时",day:"天",month:"个月",year:"年",ago:"前",error:"NaN"};var e=function(e){e=new Date(n(e));var r=new function(){this.second=(Date.now()-e.getTime())/1e3,this.minute=this.second/60,this.hour=this.minute/60,this.day=this.hour/24,this.month=this.day/30,this.year=this.month/12},i=Object.keys(r).reverse().find(function(t){return r[t]>=1});return(i?function(t,e){return Math.floor(t)+e}(r[i],t.lang[i]):t.lang.error)+t.lang.ago},n=function(t){return t=new Date(t&&("number"==typeof t?t:t.replace(/-/g,"/").replace("T"," "))),!isNaN(t.getTime())&&t.getTime()};return{init:function(){var r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},i=r.target,a=void 0===i?"time":i,o=r.lang;o&&(t.lang=o);var u=!0,h=!1,l=void 0;try{for(var s,c=document.querySelectorAll(a)[Symbol.iterator]();!(u=(s=c.next()).done);u=!0){var f=s.value,g=n(f.dateTime)||n(f.title)||n(f.innerHTML)||0;if(!g)return;f.title=new Date(g).toLocaleString(),f.innerHTML=e(g)}}catch(t){h=!0,l=t}finally{try{!u&&c.return&&c.return()}finally{if(h)throw l}}},format:e}}}();
+!function(){window.Lately=new function(){var t=this;this.lang={second:"�?",minute:"分钟",hour:"小时",day:"�?",month:"个月",year:"�?",ago:"�?",error:"NaN"};var e=function(e){e=new Date(n(e));var r=new function(){this.second=(Date.now()-e.getTime())/1e3,this.minute=this.second/60,this.hour=this.minute/60,this.day=this.hour/24,this.month=this.day/30,this.year=this.month/12},i=Object.keys(r).reverse().find(function(t){return r[t]>=1});return(i?function(t,e){return Math.floor(t)+e}(r[i],t.lang[i]):t.lang.error)+t.lang.ago},n=function(t){return t=new Date(t&&("number"==typeof t?t:t.replace(/-/g,"/").replace("T"," "))),!isNaN(t.getTime())&&t.getTime()};return{init:function(){var r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},i=r.target,a=void 0===i?"time":i,o=r.lang;o&&(t.lang=o);var u=!0,h=!1,l=void 0;try{for(var s,c=document.querySelectorAll(a)[Symbol.iterator]();!(u=(s=c.next()).done);u=!0){var f=s.value,g=n(f.dateTime)||n(f.title)||n(f.innerHTML)||0;if(!g)return;f.title=new Date(g).toLocaleString(),f.innerHTML=e(g)}}catch(t){h=!0,l=t}finally{try{!u&&c.return&&c.return()}finally{if(h)throw l}}},format:e}}}();
 /**
  * ViewImage.min.js 2.0.2
  * https://tokinx.github.io/ViewImage/
