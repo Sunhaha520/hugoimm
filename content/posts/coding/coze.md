@@ -208,3 +208,11 @@ feature: https://i0.hdslb.com/bfs/article/45b3554bb379f0e9b6d1f9cde578c930514080
 ### 一些体会
 
 ![1.png](https://i0.hdslb.com/bfs/article/bca984a5dd89547f66ed93c622b1139b514080334.png)
+
+首先在我看来，**GPTs 并不算 agent**，优雅的说，可以算是agent的雏形。
+
+Agent 应该是有能力主动思考和行动的智能体。当用户提出需求时，agent 有能力自行感知环境、形成记忆、规划和决策行动，甚至与别的 agent 合作实现任务。而用户每 Prompt 一次才被动回复的 GPTs，还没有达到 agent 的标准。事实上，**国内很多厂商做的都还不是 agent（智能体），只是炒了一波概念**。
+
+严谨的说，**Coze做出来的智能体，比 GPTs 更加接近真正的 agent**，也让大众更低门槛的具象的能感受到 agent 的结构与结果。在扣子中，[LLM](https://www.zhihu.com/search?q=LLM&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3391298531%7D)被弱化成了比较小的一环，并加持了插件、工作流、知识库、定时任务等等工具，别人有的我要有，别人没的我更要有。
+
+OpenAI是要做AGI的，而扣子更像是字节内部的一个基础设施。过多的插件反而会增加用户的使用门槛，最理想的情况下，就是用户通过自然语言提出需求，GPT就能真实解决。但字节这边不一样，扣子对于字节而言就像是个武器库，或者说是[幻兽帕鲁里](https://www.zhihu.com/search?q=%E5%B9%BB%E5%85%BD%E5%B8%95%E9%B2%81%E9%87%8C&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A3391298531%7D)的工作台，在有需要时，能够**低门槛、多选择、可视化**的搭建针对特定场景功能的智能体。
