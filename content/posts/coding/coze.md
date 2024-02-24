@@ -189,7 +189,8 @@ feature: https://i0.hdslb.com/bfs/article/45b3554bb379f0e9b6d1f9cde578c930514080
         
     4. 复制生成的 **Sharable URL**。
         
-        ![图片](https://p16-arcosite-va.ibyteimg.com/tos-maliva-i-10qhjjqwgv-us/2eb26eab0b1f4540b46a05f757d317aa~tplv-10qhjjqwgv-image.image)
+        ![image.png](https://i0.hdslb.com/bfs/article/08fc4b4473adaad3f52a9925f9c08b53514080334.png)
+
         
     5. 在生成的 Sharable URL 最后添加 _`&state={app_id}`_ 。
         
