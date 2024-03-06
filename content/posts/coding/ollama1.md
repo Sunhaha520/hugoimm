@@ -14,12 +14,30 @@ Ollama是一款本地大语言模型工具，使用户能够快速运行Llama 2�
 
 先说一下我的电脑情况，垃圾配置，19年的华为Matebook14，参数如下：  
 HUAWEI MateBook 14（i7 8565U/8GB/512GB/MX250）三系统：Windows10+linux mint+fydeoOS  
-由于配置比较垃圾，我估计最多能跑7B的模型。  事实证明也是如此：本机器可以流畅跑Gemma 2B，Qwen 4B，Qwen 1.8B，较卡顿跑出Qwen 7B，Gemma 7B，Code Llama 7B。实测在Linux mint上跑的效果好过Windows，遗憾Linux mint没有分配足够空间，内存爆满，所以最后又转到了Windows。下面就是安装过程
+由于配置比较垃圾，我估计最多能跑7B的模型。  事实证明也是如此：本机器可以流畅跑Gemma 2B，Qwen 4B，Qwen 1.8B，较卡顿跑出Qwen 7B，Gemma 7B，Code Llama 7B。实测在Linux mint上跑的效果好过Windows，遗憾Linux mint没有分配足够空间，内存爆满，所以最后又转到了Windows。下面就是安装过程。
 #### Linux安装
-用一下命令直接安装：  
+用以下命令直接安装：  
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 #### Windows安装
-请详细阅读以下文章，你也可以
+以下文章有详细的安装和使用教程：  
+<https://www.sysgeek.cn/ollama-on-windows/>  
+#### 常用命令
+拉取模型：  
+```bash
+ollama pull llama2
+```
+运行模型：  
+```bash
+ollama run llama2
+```
+删除模型：  
+```bash
+ollama rm llama2
+```
+列出所有模型：  
+```bash
+ollama list llama2
+```
