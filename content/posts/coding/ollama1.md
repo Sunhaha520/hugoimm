@@ -41,3 +41,7 @@ ollama rm llama2
 ```bash
 ollama list llama2
 ```
+
+![通义千问4B模型](https://r2.xiaoayu.eu.org/2024/03/a97c34c218517ffc80563ae99f74aecc.webp)
+
+### 使用WebUI调用本地大模型
